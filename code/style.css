@@ -1,0 +1,37 @@
+.image {
+    background-image: url(Fiat.jfif); 
+    background-size: 15rem;
+}
+
+a {
+    text-decoration: none;
+}
+.card  {
+    margin:0;
+    float:none;
+    margin-bottom:10px;
+    margin-right:10%;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+hr {
+    border: 1px solid pink;
+}
+
+img {
+    object-fit: cover; display: block;
+}
+
+.top-left{
+    position: absolute;
+    left:0;
+    top:0;
+ }
+
+.parent {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
