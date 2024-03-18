@@ -106,7 +106,7 @@
 
     <div class="col-lg-4  align-items-stretch"> <a href="#CITROEN" style="text-decoration:none;">
       <div class="card">
-        <img class="card-img-top"  height="250" src="CITROEN.jfif" alt="BMW">
+        <img class="card-img-top"  height="250" src="CITROENlogo.jfif" alt="BMW">
         <div CLASS="card-body">
           <h5 class="card-title fs-1">CITROEN</h5>
           <a href="#CITROEN" class="btn btn-primary w-100">Read about CITROEN</a> 
@@ -137,7 +137,7 @@
           <h1>Country: Germany <img  class="d-center mx-auto d-block"src="GERMANY.jfif" ></h1>
           <H1>Date of creation: 1899</H1>
           
-          <img class="img-responsive rounded mx-auto d-block"src="FiatCar.jfif" alt="Fiat 500 Abarth" style="width:50%" >
+          <img onclick="image(event)" class="myImg img-responsive rounded mx-auto d-block"src="FiatCar.jfif" alt="Fiat 500 Abarth" style="width:50%" >
           <figcaption>Fiat 500 Abarth</figcaption>
         </div>
         <hr>
@@ -146,7 +146,7 @@
           <h1>Country: Italy <img src="Italy.jfif" class="d-center mx-auto d-block"></h1>
           <h1>Date of creation : 1909</h1>
 
-          <img class="img-responsive rounded mx-auto d-block" src="AudiCar.jfif" alt="Audi  R8" style="width:50%;">
+          <img onclick="image(event)" class="myImg img-responsive rounded mx-auto d-block" src="AudiCar.jfif" alt="Audi R8" style="width:50%;">
           <figcaption>Audi R8</figcaption>
           <hr>
         </div>
@@ -155,39 +155,54 @@
           <h1>Country: Germany <img src="GERMANY.jfif" class="d-center mx-auto d-block"></h1>
           <h1>Date of creation : 1938</h1>
 
-          <img class="img-responsive rounded mx-auto d-block" src="VolkswagenCar.jfif" alt="Audi  R8" style="width:50%;">
+          <img onclick="image(event)" class="myImg img-responsive rounded mx-auto d-block" src="VolkswagenCar.jfif"
+           alt="2019 Volkswagen Jetta GLI 35th Anniversary" style="width:50%;">
           <figcaption>2019 Volkswagen Jetta GLI 35th Anniversary</figcaption>
           </figcaption>
           <hr>
         </div>
+        
         <div class="text-center">
-          <h1 id="BMW" class="text-primary"><span style="width:150%">B<SPAN class="text-black">M</SPAN>W</span></h1>
+          <h1 id="BMW" class="text-primary"><span style="width:150%">B<SPAN class="text-black">M</SPAN>W</h1>
           <h1>Country: Germany <img src="GERMANY.jfif" class="d-center mx-auto d-block"></h1>
           <h1>Date of creation : 1916</h1>
 
-          <img class="img-responsive rounded mx-auto d-block" src="BmwCar.jfif" alt="Audi  R8" style="width:50%;">
+          <img onclick="image(event)" class="myImg img-responsive rounded mx-auto d-block" src="BmwCar.jfif" alt="BMW M2" style="width:50%;">
           <figcaption>BMW M2</figcaption>
           </figcaption>
           <hr>
+      
         </div>
+        
         <div class="text-center">
           <h1 id="CITROEN" class="text-primary">CITROEN</h1>
           <h1>Country: FRANCE <img src="France.jfif" class="d-center mx-auto d-block"></h1>
           <h1>Date of creation : 1919</h1>
 
-          <img class="img-responsive rounded mx-auto d-block" src="CITROEN.jfif" alt="Audi  R8" style="width:50%;">
+          <img  onclick="image(event)" class="myImg img-responsive rounded mx-auto d-block" src="CITROEN.jfif" alt="CITROEN C3 HATCHBACK" style="width:50%;">
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
           <figcaption>CITROEN C3 HATCHBACK</figcaption>
+          
           </figcaption>
           <hr>
         </div>
       </div>
+      
       <div class="text-center">
         <h1 id="FORD" class="text-primary">CITROEN</h1>
         <h1>Country: USA <img src="AMERICA.jfif" class="d-center mx-auto d-block"></h1>
         <h1>Date of creation : 1903</h1>
+        
 
-        <img class="img-responsive rounded mx-auto d-block" src="FORDCAR.jfif" alt="Audi  R8" style="width:50%;">
+        <img onclick="image(event)" class="myImg img-responsive rounded mx-auto d-block" src="FORDCAR.jfif" alt="FORD MUSTANG" style="width:50%;">
+
         <figcaption>FORD MUSTANG</figcaption>
+        
+        </div>
         </figcaption>
         <hr>
       </div>
