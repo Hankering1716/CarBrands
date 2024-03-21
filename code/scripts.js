@@ -60,4 +60,16 @@ span.onclick = function () {
     
 }
 
-// When the user clicks ESC on keyboard, close the modal
+
+
+document.getElementById('frmSearch').onsubmit = function() {
+
+    window.location = `#${document.getElementById('txtSearch').value}`
+
+    return false;
+}
+
+document.getElementById('searchform').onsubmit = function() {
+    window.location = 'http://www.google.com/search?q=' + document.getElementById('txtSearch').value;
+    return false;
+}
