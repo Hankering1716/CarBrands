@@ -2,6 +2,7 @@
 <html lang="en" data-bs-theme="dark">
     <head>
         <title>Brand Cars</title>
+        <link rel="icon" type="image/x-icon" href="icon.jfif">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -67,10 +68,7 @@
                   <a class="nav-link" href="#">Blog</a>
                 </li>
               </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+   
             </div>
           </div>
         </nav>
@@ -81,11 +79,16 @@
           <h1 class="text-dark">Car Brands</h1> 
           <div class="input-group mb-3">
          
-              <input type="text" class="form-control text-primary" placeholder="Search"> 
-         
-             
-              <button class="btn btn-success" type="submit" ><span class="fa fa-search"></span> 
-              </button>
+          <!-- <form action="AUDI">
+            <input type="search" class="form-control text-primary" placeholder="Search"> 
+            <button class="btn btn-success" type="submit"><span class="fa fa-search"></span> </button>
+          </form> -->    
+       
+          <form id="frmSearch" class="search2" method="get" action="">
+
+            <input type="search" class="form-control text-primary search2" placeholder="Search" id="txtSearch"   maxlength="100" value="">
+            <button type="submit" class="btn btn-primary" ><span class="fa fa-search"></span></button>
+          </form>
           </div> 
         </header> 
       </div><hr>
@@ -259,9 +262,9 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase text-danger">CAR BRANDS</h5>
+              <h5 class="text-uppercase ">CAR BRANDS</h5>
 
-              <p class="text-primary">
+              <p class="">
                 Discover the latest trends in automotive technology and design. Explore the most iconic car brands that define innovation and excellence.
 
               </p>
@@ -270,43 +273,44 @@
 
             <!--Grid column-->
             <div class="col-lg-2">
-              <h5 class="text-uppercase text-dark">Hankering1716</h5>
+              <h5 class="text-uppercase ">Hankering1716</h5>
               <ul class="list-unstyled mb-0">
                 <li><a href="#!" class="text-white">Service 1</a></li>
                 <li><a href="#!" class="text-white">Service 2</a></li>
                 <li><a href="#!" class="text-white">Service 3</a></li>
                 <li><a href="#!" class="text-white">Service 4</a></li>
-              </ul>
+              </ul> <hr class="mb-4">
             </div>
             <!-- Footer Column 3 -->
             <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase text-warning">About me</h5>
+              <h5 class="text-uppercase ">About me</h5>
               <ul class="list-unstyled mb-0">
                 <li><a href="#!" class="text-white">Bio</a></li>
                 <li><a href="#!" class="text-white">Portfolio</a></li>
                 <li><a href="#!" class="text-white">Testimonials</a></li>
                 <li><a href="#!" class="text-white">Contact Info</a></li>
-              </ul>
+              </ul>  <hr class="mb-4">
             </div>
             <!-- Footer Column 4 -->
             <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase text-success">Resources</h5>
+              <h5 class="text-uppercase ">Resources</h5>
               <ul class="list-unstyled mb-0">
                 <li><a href="#!" class="text-white">Documentation</a></li>
                 <li><a href="#!" class="text-white">Tutorials</a></li>
                 <li><a href="#!" class="text-white">Community</a></li>
                 <li><a href="#!" class="text-white">Support</a></li>
               </ul>
+              <hr class="mb-4">
             </div>
             <!-- Footer Column 5 -->
             <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase text-info">Contact</h5>
+              <h5 class="text-uppercase ">Contact</h5>
               <ul class="list-unstyled mb-0">
                 <li><a href="#!" class="text-white">Email</a></li>
                 <li><a href="#!" class="text-white">Phone</a></li>
                 <li><a href="#!" class="text-white">Address</a></li>
                 <li><a href="#!" class="text-white">Social Media</a></li>
-              </ul>
+              </ul> <hr class="mb-4 ">
             </div>
 
           </div>
@@ -314,14 +318,14 @@
         </section>
 
 
-        <hr class="mb-4" />
+      
 
 
 
 
 
         <!-- Section: Social media -->
-        <section class="mb-4 text-center">
+        <section class="mb-4 mt-4 text-center">
           <!-- Facebook -->
           <a
             class="btn btn-outline-light btn-floating m-1"
